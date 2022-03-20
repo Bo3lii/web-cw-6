@@ -12,11 +12,14 @@
       <h1>مغير الوضع</h1>
       <!-- Checkbox مغير الوضع الأول -->
       <label id="switch" class="switch">
-        <input type="checkbox" id="slider" />
+        <input type="checkbox" id="slider" onchange="toggleTheme()"/>
         <span class="slider round"></span>
       </label>
 
       <!-- Button مغير الوضع الثاني -->
+      <label id="switch" class="switch">
+        <button type="button" id="slider" onclick="toggleTheme()"> music</button>
+      </label>
     </div>
     <script src="./script.js"></script>
   </body>
